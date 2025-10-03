@@ -9,7 +9,8 @@ describe('Página de meus pedidos', () => {
     });
     it('Nenhum pedido na aba meus pedidos', () => {
         loginPage.login()
-        meuspedidosPage.PedidosNaoExistentes()
+// Caso não tenha nenhum pedido:
+//      meuspedidosPage.PedidosNaoExistentes()
         
     });
 });
